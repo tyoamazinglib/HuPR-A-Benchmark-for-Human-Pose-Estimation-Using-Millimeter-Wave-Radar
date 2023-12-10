@@ -16,9 +16,9 @@ for i in range(1, num+1):
     dirVertName = dirName + '/vert'
     dirHoriName = dirName + '/hori'
     dirAnnotName = dirName + '/annot'
-    dirVisName = dirName + '/visualization'
+    # dirVisName = dirName + '/visualization'
     os.makedirs(dirName, exist_ok=True)
     os.makedirs(dirVertName, exist_ok=True)
     os.makedirs(dirHoriName, exist_ok=True)
     os.makedirs(dirAnnotName, exist_ok=True)
-    os.makedirs(dirVisName, exist_ok=True)
+    # os.makedirs(dirVisName, exist_ok=True) # pre-made this
